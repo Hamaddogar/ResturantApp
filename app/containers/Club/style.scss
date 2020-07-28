@@ -1,0 +1,83 @@
+.hall-IMG-SET .hall-bk{
+    width:88%;
+}
+
+.tables-container{
+    display: flex;
+    position: absolute;
+    top: 21%;
+    left: 20%;
+    width: 63%;
+    height: 60%;
+
+    padding: 4%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-filled{
+    background-color: rgba(189, 245, 179, 0.6);
+}
+
+.table img{
+    width:100%;
+}
+
+.table span{
+    color: black;
+    position: relative;
+    top: -36px;
+    font-weight: bold;
+}
+
+.table{
+    margin:5px;
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+    box-shadow:2px 2px 34px 12px black;
+    // border:1px solid red;
+}
+
+.table-selected{
+    background-color: white;
+}
+
+.hall-IMG-SET{
+    position: relative;
+}
+
+.controls-panel{
+    position: relative;
+    margin-top: -92px;
+}
+
+.st-btn:hover{
+    opacity:0.9;
+    position: relative;
+    top:2px;
+}
+
+.cbtn:hover{
+    opacity: 0.8;        
+}
+
+.cbtn{
+    cursor: pointer;    
+}
+
+.st-btn{
+    cursor: pointer;
+    width: 75px;
+}
+
+.main-hall-title{
+    position: relative;
+    top: 3vw;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 0;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 35px #e4ff00;
+}

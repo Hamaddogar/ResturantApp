@@ -1,0 +1,57 @@
+// .app-wrapper {
+//   max-width: calc(768px + 16px * 2);
+//   margin: 0 auto;
+//   display: flex;
+//   min-height: 100%;
+//   padding: 0 16px;
+//   flex-direction: column;
+// }
+
+.float-btn-add:hover{
+    text-decoration: none;
+
+}
+
+.float-btn-add{
+	display: inline-block;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    font-size: 2em;
+    font-family: AUTO;
+    padding-top: 5px;
+}
+
+
+
+.modal-header{
+    background-color: #595201;
+    color: white;
+    font-weight: bold;
+    }
+
+.modal {
+    background:none;
+}
+
+.disabled{
+    pointer-events: none;
+    opacity:0.4;
+}
+
+ .app-wrapper { 
+    margin: auto;
+    width: 95vw;
+    text-align: center;
+}
+
+body{
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+}
